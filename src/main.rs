@@ -9,6 +9,7 @@ mod arrays;
 mod vectors;
 mod conditionals;
 mod loops;
+mod functions;
 
 fn main() {
     let stdout = stdout();
@@ -26,6 +27,7 @@ fn main() {
     // arrays::run();
     // vectors::run();
     // conditionals::run();
-    loops::run();
+    // loops::run();
+    functions::run();
 }
     
