@@ -6,6 +6,7 @@ mod types;
 mod strings;
 mod tuples;
 mod arrays;
+mod vectors;
 
 fn main() {
     let stdout = stdout();
@@ -20,6 +21,7 @@ fn main() {
     // types::run();
     // strings::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    vectors::run();
 }
     
