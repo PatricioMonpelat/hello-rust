@@ -4,6 +4,7 @@ mod vars;
 mod print;
 mod types;
 mod strings;
+mod tuples;
 
 fn main() {
     let stdout = stdout();
@@ -16,6 +17,7 @@ fn main() {
     // print::run();
     // vars::run();
     // types::run();
-    strings::run();
+    // strings::run();
+    tuples::run();
 }
     
