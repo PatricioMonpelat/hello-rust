@@ -8,6 +8,7 @@ mod tuples;
 mod arrays;
 mod vectors;
 mod conditionals;
+mod loops;
 
 fn main() {
     let stdout = stdout();
@@ -24,6 +25,7 @@ fn main() {
     // tuples::run();
     // arrays::run();
     // vectors::run();
-    conditionals::run();
+    // conditionals::run();
+    loops::run();
 }
     
