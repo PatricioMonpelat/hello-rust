@@ -3,6 +3,7 @@ use std::io::{stdout, BufWriter};
 mod vars;
 mod print;
 mod types;
+mod strings;
 
 fn main() {
     let stdout = stdout();
@@ -14,6 +15,7 @@ fn main() {
     
     // print::run();
     // vars::run();
-    types::run();
+    // types::run();
+    strings::run();
 }
     
