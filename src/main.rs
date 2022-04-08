@@ -10,6 +10,7 @@ mod vectors;
 mod conditionals;
 mod loops;
 mod functions;
+mod pointer_ref;
 
 fn main() {
     let stdout = stdout();
@@ -28,6 +29,7 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // loops::run();
-    functions::run();
+    // functions::run();
+    pointer_ref::run();
 }
     
