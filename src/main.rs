@@ -13,6 +13,7 @@ mod functions;
 mod pointer_ref;
 mod structs;
 mod enums;
+mod cli;
 
 fn main() {
     let stdout = stdout();
@@ -22,18 +23,19 @@ fn main() {
     let mut writer = BufWriter::new(stdout.lock());
     say(message.as_bytes(), width, &mut writer).unwrap();
     
-    // print::run();
-    // vars::run();
-    // types::run();
-    // strings::run();
-    // tuples::run();
-    // arrays::run();
-    // vectors::run();
-    // conditionals::run();
-    // loops::run();
-    // functions::run();
-    // pointer_ref::run();
-    // structs::run();
-    enums::run();
+     print::run();
+     vars::run();
+     types::run();
+     strings::run();
+     tuples::run();
+     arrays::run();
+     vectors::run();
+     conditionals::run();
+     loops::run();
+     functions::run();
+     pointer_ref::run();
+     structs::run();
+     enums::run();
+     // cli::run();
 }
     
